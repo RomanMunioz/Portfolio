@@ -100,7 +100,7 @@ export default function Projects() {
                       View Code
                     </a>
                     <a
-                      href="https://romanmunioz.github.io/proyectoreact/dashboard"
+                      href="https://romanmunioz.github.io/proyectoreact/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg"
