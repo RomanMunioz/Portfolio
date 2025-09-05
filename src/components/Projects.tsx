@@ -90,14 +90,24 @@ export default function Projects() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                    <button className="flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                      <a
+                      href="https://github.com/RomanMunioz/proyectoreact"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg"
+                    >
                       <Github className="h-5 w-5 mr-2" />
                       View Code
-                    </button>
-                    <button className="flex items-center justify-center border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg">
+                    </a>
+                    <a
+                      href="https://romanmunioz.github.io/proyectoreact/dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg"
+                    >
                       <ExternalLink className="h-5 w-5 mr-2" />
                       Live Demo
-                    </button>
+                    </a>
                   </div>
                 </div>
 
